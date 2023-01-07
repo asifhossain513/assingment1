@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Work Sans', sans-serif;
+}
+/* Banner Header section */
+.banner-header{
+  display: flex;
+  justify-content: right;
+  height: 713px;
+  background-image: url(images/banner3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner{
+  width: 600px;
+  color: #ffff;
+  align-self: center;
+  text-align: right;
+  margin: 0px 200px;
+}
+.banner-title{
+  font-size: 65px;
+  font-weight: 700;
+  text-shadow: 2px 0px 1px #000;
+}
+.banner-description{
+  font-size: 18px;
+  font-weight: 300;
+  margin: 20px 0px 40px 0px;
+  letter-spacing: 1px;
+  line-height: 25px;
+  text-shadow: 2px 0px 1px rgb(63, 55, 55);
+
+}
+.contact-button{
+  font-size: 20px;
+  color: #005FAC;
+  background: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 15px 25px;
+}
