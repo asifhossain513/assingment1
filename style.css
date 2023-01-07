@@ -9,7 +9,7 @@
   display: flex;
   justify-content: right;
   height: 713px;
-  background-image: url(images/banner3.png);
+  background-image: url(./images/banner3.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -25,6 +25,13 @@
   font-size: 65px;
   font-weight: 700;
   text-shadow: 2px 0px 1px #000;
+}
+.banner-title-color{
+  color: #aaff43;
+  transition: 1s;
+}
+.banner-title-color:hover{
+  color: #151414;
 }
 .banner-description{
   font-size: 18px;
@@ -42,6 +49,15 @@
   border-radius: 5px;
   text-decoration: none;
   padding: 15px 25px;
+  transition: 1s;
+  border: none;
+  box-shadow: 1px 2px 10px rgb(249, 245, 245);
+}
+.contact-button:hover{
+  padding: 20px 25px;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  font-size: 25px;
 }
 /* Failure container */
 .failure-container{
@@ -49,9 +65,6 @@
   display: flex;
   gap: 100px;
   align-items: center;
-}
-.failure-banner{
-
 }
 
 .failure-details{
@@ -63,6 +76,7 @@
 }
 .failure-title{
   font-size: 40px;
+  padding-bottom: 15px;
 }
 .failure-list{
   list-style: none;
@@ -76,9 +90,6 @@
   font-size: 16px;
 }
 /* My plan Container */
-.plan-container{
-  width: auto;
-}
 .plan-header{
   font-size: 40px;
   font-weight: 600;
@@ -92,8 +103,8 @@
   gap: 80px;
   margin: 20px 180px;
   text-align: center;
-
 }
+
 .plan-title{
   font-size: 25px;
   margin: 20px 0px;
@@ -111,11 +122,11 @@
   justify-content:left;
   width: 1140;
   height: 300px;
-  background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(2,21,58,0.9867297260701156) 10%, rgba(255, 204, 0, 0.338) 100%), url(images/watch.png);
+  background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(2,21,58,0.9867297260701156) 10%, rgba(255, 204, 0, 0.338) 100%), url(./images/watch.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 30px 180px;
+  margin: 80px 180px;
   border-radius: 10px;
 }
 .contact-details{
@@ -134,4 +145,81 @@
   border-radius: 5px;
   text-decoration: none;
   padding: 15px 25px;
+  transition: 0.5s ease-in;
+  border: none;
 }
+.call-button:hover{
+  color: #f3f6f8;
+  background: rgb(168, 202, 14);
+  padding: 18px 27px;
+  font-size: 24px;
+  box-shadow: 1px 2px 10px rgb(249, 245, 245);
+
+}
+/* footer container */
+footer{
+  background: #151414;
+}
+.footer-container{
+  padding: 80px 180px 100px 180px;
+  color: #ffff;
+  display: flex;
+  justify-content: space-between;
+}
+.information{
+  width: 500px;
+}
+.footer-title, .Subscribe{
+  font-size: 35px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+.footer-description{
+  font-size: 16px;
+  margin: 20px 0px;
+  line-height: 25px;
+}
+.contact-info{
+  font-size: 16px;
+  line-height: 25px;
+}
+.social-icon{
+  max-width: 35px;
+  margin: 20px 5px 0px 5px;
+  padding: 5px;
+  transition: 1s;
+}
+.social-icon:hover{
+  max-width: 50px;
+  cursor: pointer;
+}
+.form{
+  width: 300px;
+}
+.email-input{
+  padding: 20px 50px;
+  border-radius: 5px;
+  border: 1px solid rgb(255, 255, 255);
+  background: none;
+  color: #ffff;
+  margin-bottom: 20px;
+}
+.submit-button{
+  padding: 15px 30px;
+  background: #005FAC;
+  color: #fff;
+  font-size: 20px;
+  transition: 1s ease;
+  border-radius: 10px;
+}
+.submit-button:hover{
+  padding: 13px 25px;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  box-shadow: 1px 2px 10px rgb(249, 245, 245);
+  border: none;
+  cursor: pointer;
+}
+
+
